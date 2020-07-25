@@ -7,6 +7,9 @@
         margin:0px;
         background-color: black;
       }
+      body {
+        margin:0px;
+      }
       #logo_area{
         background-color: antiqueWhite;
         margin:0px;
@@ -21,6 +24,8 @@
         width:70%;
         height:500px;
         background-color: skyblue;
+        display: inline-block;
+
       }
 
       .main_content{
@@ -29,12 +34,44 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .side_bar{
+        background-color: hotpink;
+        float:right;
+        width:30%;
+        height:500px;
 
-      .log_in{
-        background-color: crimson;
-        color:white;
-        display:inline-block;
       }
+      .log_in{
+        background-color:  #800000;
+        color:white;
+        width:100%;
+        margin:0px;
+        height:180px;
+      }
+      .log_in_main_text{
+        padding-left: 20px;
+        padding-top:5px;
+        margin:0px;
+      }
+      .mini_link{
+        background-color: pink;
+        height:145px;
+        width:100%;
+      }
+      .notice_box{
+        background-color: darkolivegreen;
+        height:175px;
+      }
+      .notice_bar{
+        background-color: white;
+        height:35px;
+      }
+      footer{
+        background-color: gray;
+        height:160px;
+      }
+
+
     </style>
   </head>
   <body>
@@ -44,10 +81,24 @@
       <div class="main_content">
         <div class="main_picture">
           그림 들어갈 공간
-      </div>
-      <div class="log_in">
-        로그인
-      </div>
+        </div>
+        <div class="side_bar">
+          <div class="log_in">
+            <h3 class="log_in_main_text">로그인</h3>
+          </div>
+          <div class="mini_link">
+              이메일
+          </div>
+          <div class="notice_box">
+            포털 아이디/비밀번호 문의
+          </div>
+        </div>
     </div>
+    <div class="notice_bar">
+      공지사항
+    </div>
+    <footer>
+      고려대학교
+    </footer>
   </body>
 </html>
