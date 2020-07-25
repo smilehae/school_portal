@@ -11,14 +11,20 @@
         margin:0px;
       }
       #logo_area{
-        background-color: antiqueWhite;
+        border-top:3px solid #b30000;
+        background-color: white;
         margin:0px;
         width:100%;
         height:60px;
-        text-align: center;
       }
       #logo_area p {
         margin:0px;
+      }
+      #middle_area{
+        width:1024px;
+        margin:auto;
+        background-color: gray;
+
       }
      .main_picture{
         width:70%;
@@ -33,6 +39,17 @@
         background-color: gray;
         margin-left: auto;
         margin-right: auto;
+      }
+      .top_right_bar{
+        float:right;
+        background-color: white;
+        padding:20px;
+        font-size:13px;
+      }
+      .top_tag{
+        text-decoration: none;
+        color:gray;
+        margin-left: 2px;
       }
       .side_bar{
         background-color: hotpink;
@@ -70,13 +87,44 @@
         background-color: gray;
         height:160px;
       }
-
+      .red {
+        color:#b30000;
+      }
+      .lightGray {
+        color:lightGray;
+      }
+      .plus_button{
+        background-color: darkgray;
+        color:white;
+        padding: 2px 18px 8px 10px;
+        margin-left:20px;
+        margin-right: 0px;
+      }
+      .plus{
+        background-color: gray;
+        color:lightGray;
+        font-size: 20px;
+        float:right;
+        padding-bottom: 5px;
+        text-align: center;
+      }
 
     </style>
   </head>
   <body>
     <div id="logo_area">
-      <p>KUPID</p>
+      <div id="middle_area">
+        <a href="#"><img src="photos\kupid.JPG" alt="KUPID" height="60px"></a>
+        <div class="top_right_bar">
+          <a href="index.html" class="top_tag">서울 캠퍼스</a>
+          <a href="index.html" class="top_tag"> <span class="lightGray"> | </span> 세종 캠퍼스</a>
+          <a href="index.html" class="top_tag"> <span class="lightGray">|</span> 의료원</a>
+          <a href="index.html" class="top_tag red"> <span class="lightGray">|</span> ENGLISH</a>
+            <span class="plus_button">교내홈페이지</span>
+            <span class="plus">+</span>
+
+        </div>
+      </div>
     </div>
       <div class="main_content">
         <div class="main_picture">
