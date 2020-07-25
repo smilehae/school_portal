@@ -119,18 +119,28 @@
           padding:0px 5px 0px 5px;
           border: 1.5px solid darkorange;
       }
-      input[type=text] {
+      input[type=text],input[type=password] {
         margin-left:20px;
+        margin-right:10px;
       }
       input[type=submit] {
-        background-color: orange;
-        width:100px;
-      
+        background-color: #ffe6b3;
+        width:80px;
+        height:45px;
+        border:none;
+        cursor:pointer;
+        color: #800000;
+        font-size:15px;
+        font-weight: bold;
 
       }
-      .login_main {
-        background-color: pink;
+      .login_mini {
+          float:left;
       }
+      .log_in_top{
+        margin-bottom: 3px;
+      }
+
 
     </style>
   </head>
@@ -154,20 +164,27 @@
           그림 들어갈 공간
         </div>
         <div class="side_bar">
-          <div class="log_in">
-            <h3 class="log_in_main_text">로그인</h3>
-          <p class="single_id">| <span class="id_icon">ID</span> 싱글 아이디 신청</p>
-          <form action="">
-            <div class="login_main">
-              <input type="text" size="18">
-              <input type="text" size="18">
-              <input type="submit" value="로그인">
 
+      <div class="log_in">
+
+            <div class="log_in_top">
+              <h3 class="log_in_main_text">로그인</h3>
+              <p class="single_id">| <span class="id_icon">ID</span> 싱글 아이디 신청</p>
             </div>
-          </form>
 
+            <form action="">
+              <div class="login_main">
+                <spaan class="login_mini">
+                  <input type="text" size="18"><br>
+                  <input type="password" size="18">
+                </spaan>
+                <spaan class="login_mini">
+                  <input type="submit" value="로그인">
+                </span>
+              </div>
+            </form>
+      </div>
 
-          </div>
           <div class="mini_link">
               이메일
           </div>
