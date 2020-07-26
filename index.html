@@ -20,7 +20,7 @@
       #logo_area p {
         margin:0px;
       }
-      #middle_area{
+      .middle_area{
         width:1280px;
         margin:auto;
 
@@ -93,8 +93,9 @@
         margin-right: auto;
       }
       footer{
-        background-color: gray;
-        height:130px;
+        background-color: #666666;
+        height:180px;
+
       }
       .red {
         color:#b30000;
@@ -237,7 +238,10 @@
         background-color:  #803300;
       }
       .main_title {
+        font-size:17px;
         font-weight: bold;
+        margin-right: 30px;
+        margin-left:10px;
       }
       .bottom_box {
         width:32%;
@@ -246,24 +250,36 @@
         padding:5px 0px 0px 15px;
       }
       .sub_title {
-        font-size:13px;
+        font-size:16px;
+
       }
       .float {
         float:left;
         padding-top:30px;
         margin-right:20px;
+        vertical-align: center;
       }
       .footerBox {
-        color:white;
-        padding:30px 400px 10px 10px;
+        padding:20px 400px 10px 10px;
         font-size: 14px;
+        color: #c0c0c0;
       }
+      .mid_bottom {
+        margin-left: auto;
+        margin-right: auto;
+        width:1280px;
+      }
+      .bold_content {
+        color:white;
+        font-weight:bold;
+      }
+
 
     </style>
   </head>
   <body>
     <div id="logo_area">
-      <div id="middle_area">
+      <div class="middle_area">
         <a href="#"><img src="photos\kupid.JPG" alt="KUPID" height="80px"></a>
         <div class="top_right_bar">
           <a href="index.html" class="top_tag">서울 캠퍼스</a>
@@ -280,7 +296,7 @@
         <div class="main_picture">
           그림 들어갈 공간
         </div>
-        <div class="side_bar">
+    <div class="side_bar">
 
       <div class="log_in">
 
@@ -319,6 +335,7 @@
               <div class="mini_box">장학금신청</div>
               <div class="mini_box">원격지원</div>
           </div>
+
           <div class="notice_box ">
             <div class="notice_box_content">
             <span class="notice_text">▶ 포털 아이디/비밀번호 문의<br></span>
@@ -359,12 +376,14 @@
     </div>
     </div>
     <footer>
-        <img src="photos\logo.JPG" alt="Korea Univ" class="float">
+      <div class="mid_bottom">
+        <img src="photos\logo.JPG" alt="Korea Univ" class="float" width="150px">
       <div class="footerBox">
-        개인정보처리방침 | 정보보보안 | 전력현황(그린캠퍼스)<br>
+        <span class="bold_content">개인정보처리방침</span> | 정보보보안 | 전력현황(그린캠퍼스)<br>
         [서울] 02841 서울특별시 성북구 안암로 고려대학교 TEL.02-3290-1114  | [세종] 30019 세종특별자치시 세종로 고려대학교 세종캠퍼스 TEL.044-860-1114<br>
         COPYRIGHT(C)2014 KOREA UNIVERSITY. ALL RIGHTS RESERVED.
         Made By Mihae
+      </div>
       </div>
     </footer>
   </body>
